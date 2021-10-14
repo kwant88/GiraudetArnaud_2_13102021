@@ -1,0 +1,48 @@
+/* Police */
+
+@font-face {
+	font-family: "Raleway";
+	
+}
+
+@font-face {
+  font-family: "Raleway-thin";
+  src: url("static/Raleway-Thin.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h,
+a {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+p {
+  font-family: "Raleway";
+}
+
+
+ #blocpage {
+  margin: auto;
+  width: 98%;
+}
+
+/*Header*/
+
+.containerheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headernav {
+  display: flex;
+  margin-right: 3%;
+}
+.Logohaut {
+  cursor: pointer;
+}
