@@ -1,14 +1,8 @@
 /* Police */
 
-@font-face {
-	font-family: "Raleway";
-	
-}
 
-@font-face {
-  font-family: "Raleway-thin";
-  src: url("static/Raleway-Thin.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
 
 h1,
 h2,
@@ -45,4 +39,8 @@ p {
 }
 .Logohaut {
   cursor: pointer;
+}
+
+body 
+{font-family:  "Raleway";
 }
