@@ -41,6 +41,102 @@ p {
   cursor: pointer;
 }
 
-body 
-{font-family:  "Raleway";
+header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  color: #0065fc;
+}
+
+header ul li a:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 21px;
+  color: #0065fc;
+}
+
+header ul li {
+  margin-left: 28px;
+}
+
+ a {
+  text-decoration: none;
+  color: black;
+}
+
+/*inscrire */
+
+.inscrire a {
+  color: #0065fc;
+  margin-right: 0%;
+}
+
+.inscrire a:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 21px;
+}
+
+.inscrire {
+  padding-left: 28px;
+}
+.subtext {
+  margin-bottom: -35px;
+}
+
+/* le formulaire de recherche */
+
+.logosearch {
+  display: inline-flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+button {
+  background-color: #0065fc;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 0px 10px 10px 0px;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 -50px;
+}
+
+.iconemap {
+  font-size: 25px;
+  background-color: #f2f2f2;
+  border-radius: 1rem 0 0 1rem;
+  padding: 10px 10px;
+  width: 30px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+  border-right: none;
+  border-left: none;
+  border-top: #f2f2f2 1px solid;
+  border-bottom: #f2f2f2 1px solid;
+  padding: 0 1.5em;
+  width: 60%;
+  height: 50px;
+  font-size: 15px;
+}
+
+.boutonderecherche {
+  border-radius: 0px 18px 18px 0;
+  padding: 15px;
+  background-color: #0065fc;
+  color: white;
+  position: relative;
+  right: 43px;
+}
+
+.loupelogo i {
+  display: none;
 }
