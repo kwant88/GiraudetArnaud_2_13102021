@@ -1,3 +1,5 @@
+@media screen
+
 /* Police */
 
 
@@ -504,4 +506,262 @@ footer {
 
 /*Version mobile*/
 
-@media 
+@media (min-width: 300) and (max-width: 768px)
+
+   h2 {
+    
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /* Header */
+
+  header {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+  .headernav {
+    margin-right: 0;
+  }
+
+  /* Menu */
+
+  .inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  nav ul {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  header ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+  }
+
+  header ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+  /* Loupe */
+
+  .loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* Filtres */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
+
+
+  .hebergementetpop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Paramètres hébergements */
+
+  #Hebergements {
+    width: 100%;
+    background-color: white;
+    order: 2;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+  }
+
+  .hebergementmarseille {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotel {
+    width: 95%;
+    height: 210px;
+    font-size: 14px;
+  }
+
+  .hotelpop {
+    width: 95%;
+    padding: 5px;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+
+  #pluspopulaires {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    order: 1;
+    display: grid;
+  }
+
+
+  .containerActivites {
+    display: grid;
+    height: auto;
+    margin-bottom: 25px;
+    justify-content: normal;
+    -moz-margin-start: -60px;
+  }
+
+  .blocActivite {
+    width: auto;
+  }
+
+  .Activite img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .Activite {
+    margin-bottom: 30%;
+    height: 70px;
+    margin-start: 62px;
+  }
+
+  .nomactivite {
+    padding: 8px 0px 5px 20px;
+    border-radius: 0 0 1.25rem 1.25rem;
+    border-color: transparent;
+    box-shadow: 0 5px 16px #0000002e;
+    margin-top: -12px;
+  }
+
+  /* Footer*/
+
+  .blockFooter {
+    display: grid;
+  }
+
+  .interieurblockFooter {
+    width: auto;
+  }
+}
+/* Tablette */
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  /* Header */
+
+  .subtext {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Recherche */
+
+  .logosearch {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    margin-top: -15px;
+  }
+
+  /* Filtres */
+
+  .filtres {
+    align-items: center;
+    width: 100%;
+  }
+
+  .titre {
+    font-size: 12px;
+  }
+
+  .barreFiltre {
+    width: 18%;
+  }
+
+  .info {
+    align-items: center;
+    position: relative;
+  }
+
+
+  .hebergementetpop {
+    margin: 25px 0 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titresection {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  
+
+  #Hebergements {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+
+
+  #pluspopulaires {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+  }
+
+  footer {
+    border-radius: 0;
+  }
+}
